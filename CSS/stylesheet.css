@@ -111,9 +111,21 @@ header {
 }
 /* FOOTER */
 .footer-container{
-    height:200px;
+  display:block;
+    height:fit-content;
     margin:0 auto;
     border-top:0.5px solid white;
+    padding:50px;
+}
+.contact-info {
+  line-height: 20px;
+  text-align: center;
+  color: #5c5c5c;
+}
+.contact-info .phone span, .contact-info .email, .contact-info .address{
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8rem;
 }
 
 
